@@ -1,7 +1,8 @@
 name: Run Cron Messages
 on:
-  schedule:
-    - cron: "1 2 * * 0"
+  push:
+    branches:
+      - 'test-weekly'
 
 jobs:
   sendWeekly:
