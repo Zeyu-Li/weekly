@@ -9,6 +9,7 @@ interface Props {
 const Head: React.FC<Props> = ({ weekType }) => {
   const getRandom = () => {
     // 1 in 10 chance of getting it's morbing time
+    // eslint-disable-next-line react-hooks/purity -- the random title is intentional
     if (Math.floor(Math.random() * 10) === 0) {
       return "It's Morb(et)ing Time";
     }
