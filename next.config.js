@@ -2,7 +2,6 @@
 // set cache expiry for 1 hour
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
   async headers() {
     return [
       {

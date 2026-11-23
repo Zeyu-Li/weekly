@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Head from "../components/head/Head";
 // import poppins font from google fonts
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import Link from "next/link";
 
 const poppins = Poppins({
